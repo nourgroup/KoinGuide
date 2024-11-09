@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity(), AndroidScopeComponent {
             KoinGuideTheme {
                 val viewModel = getViewModel<MainViewModel>()
                 viewModel.doNetworkCall()
-                Text("Koin Guide")
+                Text(hello)
             }
         }
     }
